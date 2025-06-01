@@ -1,0 +1,306 @@
+* {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+header{
+    width: 100%;
+    /* position: fixed; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 2px;
+    background-color: rgba(205, 228, 241, 0.664);
+   
+}
+.logo{
+    width: 20%;
+    height: 30%;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 150;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+    color: brown;
+
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.right i{
+    padding: 10px 10px;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.number{
+    display: flex;
+    padding: 10px 10px;
+}
+.button{
+    border-radius: 40px;
+    background: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 150;
+    letter-spacing: 1px;
+    padding: 3px 3px;
+    /* padding: 0.7275em 1.1575em; */
+    display: inline-block;
+    transition: 0.7s ease;
+}
+.button:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+section{
+    padding: 100px 200px;
+}
+.first-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./image/4.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.main-text{
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: black;
+    margin-top: 0%;
+    margin-left: 15%;
+    letter-spacing: 1px;
+}
+.sale{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 200;
+    
+}
+.s{
+    transition: 0.7s ease;
+}
+.s:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.r{
+    transition: 0.7s ease;
+}
+.r:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.btn-section{
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px;
+    text-align: center;
+}
+.btn-section i{
+    padding-left: 80px;
+}
+.btn-1{
+    border-radius: 20px;
+    border-width: 1px;
+    background: none;
+    color: black;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.btn-2{
+    border-radius: 20px;
+    border-width: 1px;
+    background: none;
+    color: black;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    padding-right: 200px;
+    margin: 10px;
+}
+.btn-3{
+    border-radius: 20px;
+    border-width: 1px;
+    background: none;
+    color: black;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.7s ease-in-out;
+}
+.btn-3:hover{
+    transform: scale(1.1);
+    background-color: rgba(85, 85, 192, 0.767);
+}
+.btn-4{
+     border-radius: 20px;
+     border-width: 1px;
+    background: rgba(85, 85, 192, 0.767);
+    color: black;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.7s ease-in-out;
+}
+.btn-4:hover{
+    transform: scale(1.1);
+    background:none; 
+}  
+
+/* <!--second section--> */
+.Explore{
+    text-align: center;
+    color: black;
+    font-size: 0.8;
+    font-weight: 300;
+}
+.Explore h2{
+    font-size: 2.1em; 
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.container-image{
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.card-image{
+    background-image: url(./image/3.jpg);
+    background-size: cover;
+    border: 3px solid white;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 20px;
+}
+.card-image:hover{
+    opacity: 0.7;
+}
+
+.text-card{
+    padding: 10%;
+    font-size: 1.2em;
+    font-weight:200;
+    color: rgb(14, 13, 13);
+}
+/* <!-- end second section--> */
+/* fixed-card */
+.fixed-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f-card{
+    background-color:whitesmoke;
+    width: 18em;
+    box-shadow: 0 5px 25px rgba(rgb(31, 30, 30), rgb(113, 119, 113), rgb(184, 184, 189), 15%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px;
+}
+.f-card h3{
+    color:rgb(146, 57, 6);
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 10px;
+    
+}
+.f-card h4{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+  /* <!--start description image--> */
+.discription-image{
+    border: 3px solid white;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 20px;
+}
+  /* <!--end description image--> */
+
+
+/* <!--overlay image--> */
+/* body, html {
+  height: 100%;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.bg-image {
+  /* The image used */
+  /* background-image: url(./image/b7.jpg); */
+
+  /* Add the blur effect */
+  /* filter: blur(2px);
+  height: 50%;
+  width: 100%; */
+ 
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* Position text in the middle of the page/image */
+/* .bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f1f1f1;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+} */
+
+
+
+
+
